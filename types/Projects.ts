@@ -13,3 +13,7 @@ export type Project = {
 export type Props = {
     params:{project:string}
 }
+
+export type pageProps = {
+    params:{slug:string}
+}
